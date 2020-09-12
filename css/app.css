@@ -1,0 +1,419 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body{
+height: 100%;
+
+}
+
+.container-logo{
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+			
+		
+
+}
+
+ul{
+
+ list-style-type: none;
+  margin: 10px 0 3% 10%;
+  height:20px;
+  padding: 20px 0;
+   border: 0;
+  position: -webkit-sticky; /* Safari */
+
+
+}
+.nav{
+
+	background-color: #333;
+  padding:0.1px 4%; 
+  margin: 0 -2%;
+ 
+
+}
+
+li {
+  display: inline-block;
+  
+
+}
+
+li a {
+  text-transform: uppercase;
+  color:white;
+  text-align: center;
+  padding: 14px 16px  ;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.logo1{
+    margin-top:16px;
+    margin-left: 30px;
+		width: 200px;
+		height: 100px;
+	    background-size: 100%;
+	    background-image: url("../imagens/logo1.png");
+        background-repeat: no-repeat;
+}
+
+.logo2{
+  margin-right: 30px;
+  margin-top: 16px;
+		width: 200px;
+		height: 70px;
+    background-repeat: no-repeat;
+    background-image: url('../imagens/logo2.png');
+}
+
+
+.container{
+    border: 0;
+    padding: 40px 2% 1px 2px;
+    background:#D6D6D6;
+   width: 100%;
+}
+
+.container-principal{
+ 
+  width: 100%;
+  padding: 0 10%;
+}
+.container-form{
+  
+
+     padding-top: 30px;
+      height: 500px;
+      background-size:cover;
+     background-position: center;
+      background-image: url('../imagens/bg-form.jpg');
+}
+
+form{ 
+  border: 12px solid #ccc;
+     border-radius: 5px;
+       float: right;
+       width: 400px;
+       margin-right: 40px;
+      height: 100%;
+      background-color: white;
+      /*opacity: 0.5;*/
+      box-shadow: 1px 1px 1px 1px rgb(180,180,180);
+    
+  }
+
+form h2{
+font-weight: normal;
+padding: 15px;
+color: black;
+background-color: rgb(234, 236, 239);
+font-size: 18px;
+text-transform: uppercase;
+
+}
+
+span{
+  text-transform: uppercase;
+}
+
+ input[type="text"]{
+    margin: 10px 0;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+ background-color:white;
+ outline: none;
+
+ 
+}
+.form1 {
+background-color:rgb(171, 171, 171);
+opacity: 0.6;
+}
+form{
+  background-color:rgb(171, 171, 171);
+ }
+
+ input[type="submit"]{
+ border:0;
+ border-radius: 20px;
+
+  margin: 20px 0;
+  padding: 10px;
+  height: 45px;
+  width: 100%;
+  background-color:rgb( 135, 162, 240 );
+  cursor: pointer;
+  text-align: center;
+ }
+ input[type="submit"]:hover{
+
+  background-color:rgb( 52, 101, 243 );
+ }
+ input[type="submit"]{
+
+  transition: 1s;
+ }
+.chamada{
+  margin: 1px 0;
+  padding: -10px 0;
+  background-color: rgb(   5, 24, 81  );
+  width: 100%;
+  height: 200px;
+  max-width: 100%;
+ }
+ .chamada h2{
+ font-weight: normal;
+ font-size: 30px;
+ text-align: center;
+ margin:  0;
+ padding: 10px  0;
+height: 100px;
+color: white;
+ }
+ .chamada p{
+  color: white;
+  text-align: center;
+  padding:-60px 0;
+  margin:-50px auto;
+ }
+
+
+
+
+ .flex-mosaico{
+display: flex;
+
+ }
+
+ .item-mosaico1{
+background-position: center;
+background-size:cover;
+background-image: url("../imagens/mosaico1.jpg");
+width: 70%;
+
+
+ }
+
+ .item-mosaico2{
+ padding: 60px;
+  width:40%;
+background:rgb(5, 24, 61); 
+/*#334b6d*/
+ }
+
+ .item-mosaico2 p{
+  color: white;
+ }
+ @media screen and (max-width:678px ){
+   
+
+.container-form{
+  
+
+     padding-top: -100px;
+      height: 500px;
+      background-size:cover;
+     background-position: center;
+      background-image: url('../imagens/bg-form.jpg');
+}
+
+form{ 
+  text-align: center;
+  margin: 470px 0 10px 1px;
+margin-left: 20px;
+
+  padding: -100px 12px;
+  border: 12px solid #ccc;
+     border-radius: 5px;
+      
+       width: 440px;
+    
+      height: 100%;
+      background-color: white;
+      /*opacity: 0.5;*/
+      box-shadow: 1px 1px 1px 1px rgb(180,180,180);
+    
+  }
+
+form h2{
+font-weight: normal;
+padding: 15px;
+color: black;
+background-color: rgb(234, 236, 239);
+font-size: 18px;
+text-transform: uppercase;
+
+}
+
+span{
+  text-transform: uppercase;
+}
+
+ input[type="text"]{
+    margin: 10px 0;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+ background-color:white;
+ outline: none;
+
+ 
+}
+.form1 {
+background-color:rgb(171, 171, 171);
+opacity: 0.6;
+}
+form{
+  background-color:rgb(171, 171, 171);
+ }
+
+ input[type="submit"]{
+ border:0;
+ border-radius: 20px;
+
+  margin: 20px 0;
+  padding: 10px;
+  height: 45px;
+  width: 100%;
+  background-color:rgb( 135, 162, 240 );
+  cursor: pointer;
+  text-align: center;
+ }
+ul{
+
+ list-style-type: none;
+  margin: 10px 0 3% 10%;
+  height:20px;
+  padding: 20px 0;
+   border: 0;
+  position: -webkit-sticky; /* Safari */
+  align-items: center;
+
+
+}
+.nav{
+   height: 200px;
+  background-color: #333;
+  padding:0.1px 4%; 
+  margin: 0 -2%;
+ 
+
+}
+
+li {
+ display:flex;
+ flex-direction: column;
+
+}
+
+
+ }
+.rodape p{
+padding-top: 8px;
+text-align: center;
+letter-spacing: 2px;
+}
+
+.rodape{
+  padding-top: 16px;
+text-align: center;
+
+}
+
+@media screen and (max-width: 1100px){
+
+.rodape p{
+
+  margin-top: 8px;
+}
+.rodape{
+
+text-align: center;
+padding:20px 0; 
+
+}
+
+ .flex-mosaico{
+display: block;
+width: 100%;
+
+ }
+
+ .item-mosaico1{
+  height: 200px;
+background-position: center;
+background-size:cover;
+background-image: url("../imagens/mosaico1.jpg");
+width: 100%;
+
+
+ }
+
+ .item-mosaico2{
+ padding: 60px;
+  width:100%;
+background:rgb(5, 24, 61); 
+/*#334b6d*/
+ }
+
+ .item-mosaico2 p{
+  color: white;
+ }
+  form{ 
+  text-align: center;
+  margin: 470px 0 10px 1px;
+margin-left: 20px;
+
+  padding: -100px 12px;
+  border: 12px solid #ccc;
+     border-radius: 5px;
+      
+       width: 100%;
+    
+      height: 100%;
+      background-color: white;
+      /*opacity: 0.5;*/
+      box-shadow: 1px 1px 1px 1px rgb(180,180,180);
+    
+  }
+
+.chamada{
+  margin:  0;
+  padding: 80px 0;
+  background-color: rgb(   5, 24, 81  );
+  width: 100%;
+  height: 2000%;
+  max-height: 100%;
+  max-width: 100%;
+ }
+ .chamada h2{
+ font-weight: normal;
+ font-size: 30px;
+ text-align: center;
+ margin: 3px 0;
+ padding:20px 0;
+height: 1100%;
+color: white;
+ }
+ .chamada p{
+  color: white;
+  text-align: center;
+  padding:-1px 0;
+  margin:-20px 0;
+  width: 100%;
+ }
+}
